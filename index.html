@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Norato</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f2e7;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #8d6e63; /* Marrom bonitinho */
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin: 10px 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        h2 {
+            color: #8d6e63;
+            font-size: 28px;
+        }
+        section {
+            margin-top: 30px;
+        }
+        h3 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #8d6e63;
+        }
+        ul {
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            list-style-type: none;
+            gap: 30px; /* Mais espaçamento entre os livros */
+            flex-wrap: wrap; /* Para garantir que os livros vão se ajustar em telas menores */
+        }
+        ul li {
+            text-align: center;
+            width: 250px; /* Aumentei a largura do livro */
+            margin-bottom: 40px;
+        }
+        ul li img {
+            width: 200px; /* Aumentei o tamanho das imagens */
+            height: 300px; /* Ajustei a altura */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 10px;
+        }
+        ul li p {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        button {
+            background-color: #8d6e63; /* Cor marrom do botão */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-transform: uppercase;
+        }
+        button:hover {
+            background-color: #6e4b3a; /* Cor de hover mais escura */
+        }
+        footer {
+            text-align: center;
+            background-color: #8d6e63;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Biblioteca Norato</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Bem-vindo à nossa loja de livros!</h2>
+        <section>
+            <h3>Livros em Destaque</h3>
+            <ul>
+                <li>
+                    <img src="coraline.jpg" alt="Coraline">
+                    <p>Coraline</p>
+                    <a href="catalogo.html"><button>Ver Mais</button></a>
+                </li>
+                <li>
+                    <img src="apacientesilenciosa.jpg" alt="A paciente silenciosa">
+                    <p>A paciente silenciosa</p>
+                    <a href="catalogo.html"><button>Ver Mais</button></a>
+                </li>
+                <li>
+                    <img src="leituradeverão.jpg" alt="Leitura de verão">
+                    <p>Leitura de verão</p>
+                    <a href="catalogo.html"><button>Ver Mais</button></a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Biblioteca Norato. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
